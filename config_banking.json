@@ -3,6 +3,7 @@
     "task_type": "classification",
     "dataset": {
         "label_column": "label",
+        "explanation_column": "explanation",
         "delimiter": ","
     },
     "model": {
