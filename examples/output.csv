@@ -1,0 +1,229 @@
+example,label,explanation,label_label,label_error,label_prompt,label_successfully_labeled,label_annotation
+How man currencies can I hold?,fiat_currency_support,"The input question ""How many currencies can I hold?"" is asking about the ability to hold multiple currencies within the bank's system. This falls under the category of ""fiat_currency_support"" because it pertains to the bank's support for different currencies.
+
+The category ""fiat_currency_support"" refers to the bank's ability to handle and support multiple currencies for its customers. This can include features such as holding balances in different currencies, converting between currencies, and conducting transactions in various currencies.
+
+In this case, the input question is specifically asking about the number of currencies that can be held. This suggests that the customer is interested in knowing if they can hold balances in multiple currencies within their bank account.
+
+Therefore, the correct category for this input example is ""fiat_currency_support"" because it addresses the bank's support for holding multiple currencies. 
+
+So, the answer is fiat_currency_support.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95;\x04\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c\x1eHow man currencies can I hold?\x94\x8c\x05label\x94\x8c\x15fiat_currency_support\x94\x8c\x0bexplanation\x94X\xd7\x03\x00\x00The input question ""How many currencies can I hold?"" is asking about the ability to hold multiple currencies within the bank\'s system. This falls under the category of ""fiat_currency_support"" because it pertains to the bank\'s support for different currencies.\n\nThe category ""fiat_currency_support"" refers to the bank\'s ability to handle and support multiple currencies for its customers. This can include features such as holding balances in different currencies, converting between currencies, and conducting transactions in various currencies.\n\nIn this case, the input question is specifically asking about the number of currencies that can be held. This suggests that the customer is interested in knowing if they can hold balances in multiple currencies within their bank account.\n\nTherefore, the correct category for this input example is ""fiat_currency_support"" because it addresses the bank\'s support for holding multiple currencies. \n\nSo, the answer is fiat_currency_support.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+Can I unblock my pin?,pin_blocked,"The input query ""Can I unblock my pin?"" is asking about unblocking a pin. This falls under the category of ""pin_blocked"" because the customer is experiencing an issue with their pin being blocked and is seeking assistance to unblock it. So, the answer is pin_blocked.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95\\\x01\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c\x15Can I unblock my pin?\x94\x8c\x05label\x94\x8c\x0bpin_blocked\x94\x8c\x0bexplanation\x94X\x0b\x01\x00\x00The input query ""Can I unblock my pin?"" is asking about unblocking a pin. This falls under the category of ""pin_blocked"" because the customer is experiencing an issue with their pin being blocked and is seeking assistance to unblock it. So, the answer is pin_blocked.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+How do i get my salary in the account?,receiving_money,"The input query ""How do I get my salary in the account?"" is related to the process of receiving money. The customer is seeking information on how to receive their salary in their bank account. This falls under the category of ""receiving_money"" as it involves the transfer of funds into the customer's account. So, the answer is ""receiving_money"".",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95\xc0\x01\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c&How do i get my salary in the account?\x94\x8c\x05label\x94\x8c\x0freceiving_money\x94\x8c\x0bexplanation\x94XZ\x01\x00\x00The input query ""How do I get my salary in the account?"" is related to the process of receiving money. The customer is seeking information on how to receive their salary in their bank account. This falls under the category of ""receiving_money"" as it involves the transfer of funds into the customer\'s account. So, the answer is ""receiving_money"".\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+Can my daughter open an account?,age_limit,"The output is correct because the input query ""Can my daughter open an account?"" is related to the age limit category. The customer is inquiring about the eligibility criteria for opening an account for their daughter, which indicates a concern about age restrictions. Therefore, the query falls under the age_limit category. So, the answer is age_limit.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95\xbc\x01\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c Can my daughter open an account?\x94\x8c\x05label\x94\x8c\tage_limit\x94\x8c\x0bexplanation\x94Xb\x01\x00\x00The output is correct because the input query ""Can my daughter open an account?"" is related to the age limit category. The customer is inquiring about the eligibility criteria for opening an account for their daughter, which indicates a concern about age restrictions. Therefore, the query falls under the age_limit category. So, the answer is age_limit.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+Can I use app to freeze account and dispute fraud?,compromised_card,"The output is ""compromised_card"" because the customer's query is related to freezing their account and disputing fraud. This indicates that the customer suspects that their card or account has been compromised. The category ""compromised_card"" specifically addresses issues related to compromised cards or accounts, which aligns with the customer's query. So, the answer is compromised_card.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95\xf9\x01\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c2Can I use app to freeze account and dispute fraud?\x94\x8c\x05label\x94\x8c\x10compromised_card\x94\x8c\x0bexplanation\x94X\x86\x01\x00\x00The output is ""compromised_card"" because the customer\'s query is related to freezing their account and disputing fraud. This indicates that the customer suspects that their card or account has been compromised. The category ""compromised_card"" specifically addresses issues related to compromised cards or accounts, which aligns with the customer\'s query. So, the answer is compromised_card.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+What ATMs will accept this type of card?,atm_support,"The input query is asking about ATMs that accept a specific type of card. This falls under the category of ""atm_support"" because it is a question related to the support and compatibility of the card with ATMs. The customer is seeking information about which ATMs will accept their card, indicating a query related to ATM support. So, the answer is atm_support.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95\xcc\x01\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c(What ATMs will accept this type of card?\x94\x8c\x05label\x94\x8c\x0batm_support\x94\x8c\x0bexplanation\x94Xh\x01\x00\x00The input query is asking about ATMs that accept a specific type of card. This falls under the category of ""atm_support"" because it is a question related to the support and compatibility of the card with ATMs. The customer is seeking information about which ATMs will accept their card, indicating a query related to ATM support. So, the answer is atm_support.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+My disposable virtual card will not work,virtual_card_not_working,"The input example states that the disposable virtual card is not working. This falls under the category of ""virtual_card_not_working"" because it specifically mentions a virtual card and its functionality issue. The term ""disposable"" indicates that the card is meant for one-time use or limited duration, which further supports the classification as a virtual card. Therefore, the output ""virtual_card_not_working"" is correct for this input example. So, the answer is virtual_card_not_working.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95]\x02\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c(My disposable virtual card will not work\x94\x8c\x05label\x94\x8c\x18virtual_card_not_working\x94\x8c\x0bexplanation\x94X\xec\x01\x00\x00The input example states that the disposable virtual card is not working. This falls under the category of ""virtual_card_not_working"" because it specifically mentions a virtual card and its functionality issue. The term ""disposable"" indicates that the card is meant for one-time use or limited duration, which further supports the classification as a virtual card. Therefore, the output ""virtual_card_not_working"" is correct for this input example. So, the answer is virtual_card_not_working.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+What is going on? My top-up is still pending. I use your system all the time but now it is just showing as pending.,pending_top_up,"The customer's complaint states that their top-up is still pending and they have been using the bank's system regularly. This indicates that the customer has initiated a top-up transaction, but it has not been completed yet. The fact that the customer mentions using the system all the time suggests that they are familiar with the normal processing time for top-up transactions and find the current delay unusual. Therefore, the correct category for this complaint is ""pending_top_up"". So, the answer is pending_top_up.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95\xba\x02\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8csWhat is going on? My top-up is still pending. I use your system all the time but now it is just showing as pending.\x94\x8c\x05label\x94\x8c\x0epending_top_up\x94\x8c\x0bexplanation\x94X\x08\x02\x00\x00The customer\'s complaint states that their top-up is still pending and they have been using the bank\'s system regularly. This indicates that the customer has initiated a top-up transaction, but it has not been completed yet. The fact that the customer mentions using the system all the time suggests that they are familiar with the normal processing time for top-up transactions and find the current delay unusual. Therefore, the correct category for this complaint is ""pending_top_up"". So, the answer is pending_top_up.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+I forgot my code to get into the app.,passcode_forgotten,"The input example ""I forgot my code to get into the app"" indicates that the customer has forgotten their passcode to access the bank's mobile application. This falls under the category of ""passcode_forgotten"" because the customer is specifically mentioning their inability to remember their code. Therefore, the output ""passcode_forgotten"" is correct for this input example. So, the answer is passcode_forgotten.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95\x04\x02\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c%I forgot my code to get into the app.\x94\x8c\x05label\x94\x8c\x12passcode_forgotten\x94\x8c\x0bexplanation\x94X\x9c\x01\x00\x00The input example ""I forgot my code to get into the app"" indicates that the customer has forgotten their passcode to access the bank\'s mobile application. This falls under the category of ""passcode_forgotten"" because the customer is specifically mentioning their inability to remember their code. Therefore, the output ""passcode_forgotten"" is correct for this input example. So, the answer is passcode_forgotten.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
+I don't recognize a debit payment that was made and would like to find out about the payment.,direct_debit_payment_not_recognised,"The input example mentions that the user does not recognize a debit payment that was made and wants to find out about the payment. This indicates that the user is experiencing an issue with a direct debit payment. The category ""direct_debit_payment_not_recognised"" specifically addresses situations where a user is unable to recognize a direct debit payment. Therefore, based on the user's query, the correct category for this input example is ""direct_debit_payment_not_recognised"". So, the answer is direct_debit_payment_not_recognised.",not duplicate,,"You are an expert at identifying duplicate products from online product catalogs.
+You will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:
+duplicate
+not duplicate
+
+You will return the answer with one element: ""the correct option""
+
+
+Some examples with their output answers are provided below:
+
+Title of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88
+Title of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97
+Duplicate or not: not duplicate
+
+Title of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88
+Title of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83
+Duplicate or not: duplicate
+
+Now I want you to label the following example:
+Title of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: 
+Title of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: 
+Duplicate or not: ",True,"successfully_labeled=True label='not duplicate' curr_sample=b'\x80\x04\x95\xca\x02\x00\x00\x00\x00\x00\x00}\x94(\x8c\x07example\x94\x8c]I don\'t recognize a debit payment that was made and would like to find out about the payment.\x94\x8c\x05label\x94\x8c#direct_debit_payment_not_recognised\x94\x8c\x0bexplanation\x94X\x19\x02\x00\x00The input example mentions that the user does not recognize a debit payment that was made and wants to find out about the payment. This indicates that the user is experiencing an issue with a direct debit payment. The category ""direct_debit_payment_not_recognised"" specifically addresses situations where a user is unable to recognize a direct debit payment. Therefore, based on the user\'s query, the correct category for this input example is ""direct_debit_payment_not_recognised"". So, the answer is direct_debit_payment_not_recognised.\x94u.' confidence_score=None generation_info=None raw_response='not duplicate' explanation='' prompt='You are an expert at identifying duplicate products from online product catalogs.\nYou will be given information about two product entities, and your job is to tell if they are the same (duplicate) or different (not duplicate). Your answer must be from one of the following options:\nduplicate\nnot duplicate\n\nYou will return the answer with one element: ""the correct option""\n\n\nSome examples with their output answers are provided below:\n\nTitle of entity1: lexmark extra high yield return pgm print cartridge - magenta; category of entity1: printers; brand of entity1: lexmark; model number of entity1: c782u1mg; price of entity1: 214.88\nTitle of entity2: lexmark 18c1428 return program print cartridge black; category of entity2: inkjet printer ink; brand of entity2: lexmark; model number of entity2: 18c1428; price of entity2: 19.97\nDuplicate or not: not duplicate\n\nTitle of entity1: edge tech proshot 4gb sdhc class 6 memory card; category of entity1: usb drives; brand of entity1: edge tech; model number of entity1: pe209780; price of entity1: 10.88\nTitle of entity2: 4gb edge proshot sdhc memory card class6; category of entity2: computers accessories; brand of entity2: edge; model number of entity2: nan; price of entity2: 17.83\nDuplicate or not: duplicate\n\nNow I want you to label the following example:\nTitle of entity1: ; category of entity1: ; brand of entity1: ; model number of entity1: ; price of entity1: \nTitle of entity2: ; category of entity2: ; brand of entity2: ; model number of entity2: ; price of entity2: \nDuplicate or not: ' error=None"
